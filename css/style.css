@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+body {
+    background-image: url(/images/dock-ga0ea2c050_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 340vmin;
+}
+
+/* NAVBAR CSS STYLE */
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
+.navbar nav .logo h1 i {
+    color: #4CAF50;
+}
+
+.navbar nav .logo h1 {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.navbar nav .logo h1 span {
+    font-size: .8rem;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar nav ul {
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin: 0.1rem;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+}
+
+.navbar nav ul .list li a {
+    border-right: none;
+}
+
+.navbar nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* HERO SECTION CSS STYLE */
+
+.container {
+    width: 100%;
+}
+
+.container .content {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 12rem;
+}
+
+.container .content .image img {
+    width: 22rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.container .content .contents h1 {
+    font-size: 6rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.container .content .contents h3 {
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2rem;
+}
+
+.container .content .contents p {
+    letter-spacing: 1.3px;
+    margin-top: .5rem;
+    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2rem;
+}
+
+/* for button style */
+
+.links {
+    padding-left: 2rem;
+}
+
+.container .content .contents .links button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    margin-top: 0.5rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* button hover transition */
+
+.container .content .contents .links button {
+    transition-duration: 0.4s;
+}
+
+.container .content .contents .links button:hover {
+    background-color: black;
+    /* Green */
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer CSS */
+
+.footer {
+    padding: 25px 0;
+    background-color: #ededed;
+    margin-top: 16rem;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
